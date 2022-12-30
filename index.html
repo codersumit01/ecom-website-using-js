@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <!-- <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
+      integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP"
+      crossorigin="anonymous"
+    /> -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <title>House Needs</title>
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="navbar-center">
+        <span class="nav-icon">
+          <i class="fas fa-bars"></i>
+        </span>
+        <ul>
+          <li><a class="home" href="#Home">HOME</a></li>
+          <li><a href="#Shop">SHOP</a></li>
+          <li><a href="#Magazine">MAGAZINE</a></li>
+        </ul>
+        <div class="searchbar">
+          <!-- <span><i class="fa-solid fa-magnifying-glass"></i></span> -->
+          <input
+            class="search-input"
+            placeholder="search products"
+            type="text"
+          />
+
+          <button onClick="" class="search-button">search</button>
+        </div>
+        <div class="cart-btn">
+          <span><i class="fas fa-cart-plus"></i></span>
+
+          <div class="cart-items">0</div>
+        </div>
+        <a id="myBtn" class="login-link">LOGIN</a>
+      </div>
+    </nav>
+
+    <!-- Banner Image -->
+
+    <div class="slider">
+      <figure>
+        <img
+          src="https://as1.ftcdn.net/v2/jpg/02/98/11/92/1000_F_298119299_gRM4RvgAtTNuni8cPLfS7FcEJZtwRyqy.jpg"
+          alt=""
+        />
+        <img
+          src="https://img.freepik.com/free-photo/front-view-shop-word-plain-table_23-2148281113.jpg?w=900&t=st=1672032432~exp=1672033032~hmac=6bbbcae9447e688590360deab75b6bcefb4f8a703817dc30c382b6803735aa4a"
+          alt=""
+        />
+        <img
+          src="https://img.freepik.com/free-vector/season-sale_62951-24.jpg?w=900&t=st=1672032289~exp=1672032889~hmac=8018463ee2f33c4934570b51d0278cb6b0fae28d1d3e8a22ab78b72256d7a7d2"
+          alt=""
+        />
+        <img
+          src="https://img.freepik.com/free-vector/flat-sale-banner-with-photo_23-2149026968.jpg?w=1380&t=st=1672031359~exp=1672031959~hmac=78fc8805c6b1fb3f69b87d77cdab9874a1cd22c46cb427da0be7187ba942091c"
+          alt=""
+        />
+        <img
+          src="https://as1.ftcdn.net/v2/jpg/02/98/11/92/1000_F_298119299_gRM4RvgAtTNuni8cPLfS7FcEJZtwRyqy.jpg"
+          alt=""
+        />
+      </figure>
+    </div>
+    <!-- <div>
+        <img src="https://as1.ftcdn.net/v2/jpg/02/98/11/92/1000_F_298119299_gRM4RvgAtTNuni8cPLfS7FcEJZtwRyqy.jpg" alt="" style="width: 100%;">
+      </div> -->
+
+    <main class="products">
+      <div class="section-title">
+        <h2>our products</h2>
+      </div>
+
+      <div class="products-center">
+        <!-- product -->
+      </div>
+    </main>
+
+    <!-- cart -->
+    <div class="cart-overlay">
+      <div class="cart">
+        <span class="close-cart">
+          <i class="fa-solid fa-xmark"></i>
+        </span>
+        <h2>Your Cart</h2>
+        <div class="cart-content">
+          <!-- cart-item -->
+        </div>
+        <div class="cart-footer">
+          <h3>Your Total: ₹ <span class="cart-total">0</span></h3>
+          <button class="btn-buy">Buy</button>
+          <div class="clear">
+            <button class="btn-clear">Clear Cart</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Login Model -->
+    <div class="login-modal">
+      <div class="modal-content">
+        <span class="close-modal"> <i class="fas fa-window-close"></i></span>
+        <form action="" class="login">
+          <label for="name">Username</label>
+
+          <input type="text" name="name" id="name" />
+
+          <label for="password">Password</label>
+
+          <input type="password" name="" id="password" />
+
+          <input type="submit" />
+        </form>
+      </div>
+    </div>
+
+    <!-- Buy Modal -->
+    <div class="buy-modal">
+      <div class="buy-modal-content">
+        <span class="close-buy-modal">
+          <i class="fas fa-window-close"></i
+        ></span>
+        <h3>Here is your order summary</h3>
+        <div class="buy-content">
+          <!-- add cart content here -->
+        </div>
+
+        <div class="cart-footer">
+          <h3>Your Total: $ <span class="total-Buy-Price">0</span></h3>
+        </div>
+        <br />
+        <h3>Thank you for shopping with us !</h3>
+      </div>
+    </div>
+
+    <!-- footer section -->
+
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="footer-col">
+            <h4>company</h4>
+            <ul>
+              <li><a href="#">about us</a></li>
+              <li><a href="#">our services</a></li>
+              <li><a href="#">privacy policy</a></li>
+              <li><a href="#">affiliate program</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>get help</h4>
+            <ul>
+              <li><a href="#">FAQ</a></li>
+              <li><a href="#">shipping</a></li>
+              <li><a href="#">returns</a></li>
+              <li><a href="#">order status</a></li>
+              <li><a href="#">payment options</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>online shop</h4>
+            <ul>
+              <li><a href="#">watch</a></li>
+              <li><a href="#">bag</a></li>
+              <li><a href="#">shoes</a></li>
+              <li><a href="#">dress</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>follow us</h4>
+            <div class="social-links">
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="./app.js"></script>
+  </body>
+</html>

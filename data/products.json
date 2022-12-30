@@ -1,0 +1,124 @@
+{
+  "items": [
+    {
+      "sys": { "id": "1" },
+      "fields": {
+        "title": "White smart watch",
+        "type": "Electronics",
+        "price": 2599.0,
+        "rating": 4,
+        "image": { "fields": { "file": { "url": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cHJvZHVjdHxlbnwwfHwwfHw%3D&w=1000&q=80" } } }
+      }
+    },
+    {
+      "sys": { "id": "2" },
+      "fields": {
+        "title": "Headphone",
+        "type": "Electronics",
+        "price": 3499,
+        "rating": 3,
+        "image": { "fields": { "file": { "url": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8cHJvZHVjdHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=1000&q=60" } } }
+      }
+    },
+    {
+      "sys": { "id": "3" },
+      "fields": {
+        "title": "Nike Mens Shoes",
+        "type": "Mensfasion",
+        "price": 2200,
+        "rating": 5,
+        "image": { "fields": { "file": { "url": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fHByb2R1Y3R8ZW58MHx8MHx8&auto=format&fit=crop&w=1000&q=60" } } }
+      }
+    },
+    {
+      "sys": { "id": "4" },
+      "fields": {
+        "title": "Electronic Camera",
+        "type": "Electronics",
+        "price": 13000,
+        "rating": 4,
+        "image": { "fields": { "file": { "url": "https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8cHJvZHVjdHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=1000&q=60" } } }
+      }
+    },
+    {
+      "sys": { "id": "5" },
+      "fields": {
+        "title": "fridge",
+        "type": "Kitchen",
+        "price": 1880,
+        "rating": 2,
+        "image": { "fields": { "file": { "url": "./images/product-5.jpeg" } } }
+      }
+    },
+    {
+      "sys": { "id": "6" },
+      "fields": {
+        "title": "dresser",
+        "type": "furniture",
+        "price": 3200,
+        "rating": 3,
+        "image": { "fields": { "file": { "url": "./images/product-6.jpeg" } } }
+      }
+    },
+    {
+      "sys": { "id": "7" },
+      "fields": {
+        "title": "Dove body care",
+        "type": "Cosmetics",
+        "price": 4500,
+        "rating": 5,
+        "image": { "fields": { "file": { "url": "https://images.unsplash.com/photo-1625772452859-1c03d5bf1137?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fHByb2R1Y3RzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=1000&q=60" } } }
+      }
+    },
+    {
+      "sys": { "id": "8" },
+      "fields": {
+        "title": "Keeve Set",
+        "type": "Tables & Chairs",
+        "price": 1300,
+        "rating": 4,
+        "image": { "fields": { "file": { "url": "./images/product-8.jpeg" } } }
+      }
+    },
+    {
+      "sys": { "id": "9" },
+      "fields": {
+        "title": "Laptop",
+        "type": "Electronics",
+        "price": 1300,
+        "rating": 4,
+        "image": { "fields": { "file": { "url": "https://images.unsplash.com/photo-1661961112951-f2bfd1f253ce?ixlib=rb-4.0.3&ixid=MnwxMjA3fDF8MHxzZWFyY2h8MXx8bGFwdG9wfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=1000&q=60" } } }
+      }
+    },
+    {
+      "sys": { "id": "10" },
+      "fields": { 
+        "title": "Apple i phone",
+        "type": "Electronics",
+        "price": 13000,
+        "rating": 4,
+        "image": { "fields": { "file": { "url": "https://images.unsplash.com/photo-1581637708784-94c4e6f46b54?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTB8fGlwaG9uZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60" } } }
+      }
+    },
+    {
+      "sys": { "id": "11" },
+      "fields": { 
+        "title": "Girls Dress",
+        "type": "Womes Dresses",
+        "price": 1900,
+        "rating": 4,
+        "image": { "fields": { "file": { "url": "https://img.freepik.com/free-photo/young-woman-beautiful-dress_1303-17512.jpg?size=626&ext=jpg&ga=GA1.2.773358748.1669121484" } } }
+      }
+    },
+    {
+      "sys": { "id": "12" },
+      "fields": { 
+        "title": "Mask",
+        "type": "Clothes",
+        "price": 250,
+        "rating": 4,
+        "image": { "fields": { "file": { "url": "https://m.media-amazon.com/images/I/91WODES1TBL._AC_UL480_FMwebp_QL65_.jpg" } } }
+      }
+    }
+  ]
+}
